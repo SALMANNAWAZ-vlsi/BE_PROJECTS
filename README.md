@@ -31,3 +31,9 @@ use command gtkwave fa.vcd to get waveform
 ![image](https://user-images.githubusercontent.com/93606618/140574624-311e1509-b271-4e89-8ae3-651d9ad82df8.png)
 invoke yosys command for synthesis. copy and paste 'sky130_lib_verilogmodels' fa folder given above.
 ![image](https://user-images.githubusercontent.com/93606618/140575844-18958f94-c68e-4008-942e-dc72ff2db3a4.png)
+in yosys 1st command is read_liberty -lib sky.libfile, 2nd command is 'read_verilog filename.v'
+3rd is 'synth -top modulename', 'dfflibmap -liberty sky.libfile', 'abc -liberty sky.libfile'
+enter show a new file show.v is created 
+![image](https://user-images.githubusercontent.com/93606618/140577460-e214f1a8-8127-47d3-9fe4-aa37d43abe4e.png)
+to know how much chip area is used by implementation and no of cells used information can be obtained by command 'tee -o report.txt stat -liberty sky.libfile' a new report.txt file will be created
+![image](https://user-images.githubusercontent.com/93606618/140578425-62d5fdf4-ff85-4c1b-a727-7c7dc9d76ea0.png)
