@@ -29,3 +29,5 @@ we run a.out file by command 'vvp a.out' this provides dumb file fa.vcd
 ![image](https://user-images.githubusercontent.com/93606618/140574280-6e54edaa-da0e-43c9-bbf7-87fc2b88a6cb.png)
 use command gtkwave fa.vcd to get waveform 
 ![image](https://user-images.githubusercontent.com/93606618/140574624-311e1509-b271-4e89-8ae3-651d9ad82df8.png)
+invoke yosys command for synthesis. copy and paste 'sky130_lib_verilogmodels' fa folder given above.
+![image](https://user-images.githubusercontent.com/93606618/140575844-18958f94-c68e-4008-942e-dc72ff2db3a4.png)
