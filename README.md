@@ -22,4 +22,10 @@ Now create fa.v and tb.v file  and write corresponding verilog code and test ben
 ![image](https://user-images.githubusercontent.com/93606618/140572300-eec9d019-6b04-401c-964a-1923732fbafb.png)
 click on terminal, new terminal you will be in master folder. To check folders in master folder use command ls
 ![image](https://user-images.githubusercontent.com/93606618/140572964-8b4b9059-41f6-4673-b53a-93d1bec91a59.png)
-to goto fa folder cd fa+ tab key on keyboard
+to goto fa folder cd fa+ tab key on keyboard now u will be in fa folder to check files in fa click ls
+Now we need to ensure code is functionally correct using "iverilog fa.v tb.v" new file a.out will be created
+![image](https://user-images.githubusercontent.com/93606618/140573908-084293eb-787f-419b-a5ca-7721531af5ef.png)
+we run a.out file by command 'vvp a.out' this provides dumb file fa.vcd 
+![image](https://user-images.githubusercontent.com/93606618/140574280-6e54edaa-da0e-43c9-bbf7-87fc2b88a6cb.png)
+use command gtkwave fa.vcd to get waveform 
+![image](https://user-images.githubusercontent.com/93606618/140574624-311e1509-b271-4e89-8ae3-651d9ad82df8.png)
