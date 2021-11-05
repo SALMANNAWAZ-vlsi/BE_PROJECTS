@@ -5,3 +5,5 @@ I'm Mohammed Salman Nawaz, created this repository on 05/11/2021. Curious to fac
 3. OPENSOURCE GRAPH VISUALIZATION SOFTWARE-"Graphviz"
 4. OPENSOURCE VERILOG SYNTHESIS TOOL-"yosys"
 5. VSCODE as IDE
+
+DOWNLOAD LINK:https://drive.google.com/drive/folders/1WgWNOLdMSXDQtqfFmxVxLkStSSGlS3Rs
